@@ -14,5 +14,7 @@ while(Convert.ToInt32(input) != 0)
         int type = rnd.Next(1, 2);
         Console.WriteLine(type);
     }
+    Console.WriteLine("Press 1 to generate a new mission.");
+    Console.WriteLine("Press 0 to exit.");
 }
 Console.WriteLine("Thanks for using Ready Or Not Mission Generator by Justin Zhao!");
