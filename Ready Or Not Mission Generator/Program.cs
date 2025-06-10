@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-string[] missionArray = { "SULLIVAN'S SLOPE", "VOLL HEALTH HOUSE", "CHERRYESSA FARM", "BRISA COVE", "NEON NIGHTCLUB", "WENDERLY HILLS HOTEL", "4U GAS STATION", "BRIXLEY TALENT TIME",
-    "COASTAL GROVE MEDICAL CENTER", "CAESAR'S CARS DEALERSHIP", "PORT HOKAN", "MINDJOT DATACENTER", "213 PARK HOMES", "LOS SUENOS POSTAL SERVICE" };
+string[] missionArray = { "THANK YOU, COME AGAIN", "23 MEGABYTES A SECOND", "TWISTED NERVE", "THE SPIDER", "A LETHAL OBSESSION", "IDES OF MARCH", "SINUOUS TRAIL", "ENDS OF THE EARTH", "GREASED PALMS", "VALLEY OF THE DOLLS", "ELEPHANT", "RUST BELT", "SINS OF THE FATHER", "NEON TOMB", "BUY CHEAP, BUY TWICE", "CARRIERS OF THE VINE", "RELAPSE", "HIDE AND SEEK", "DORMS", "NARCOS", "LAWMAKER", "MIRAGE AT SEA", "LEVIATHAN", "3 LETTER TRIAD" };
 Console.WriteLine("Welcome to Ready Or Not Mission Generator by Justin Zhao!");
 Console.WriteLine("Press 1 to generate a mission.");
 Console.WriteLine("Press 0 to exit.");
@@ -8,32 +7,32 @@ string input = Console.ReadLine();
 while(Convert.ToInt32(input) != 0)
 {
     Random rnd = new Random();
-    int mission = rnd.Next(0, 13);
+    int mission = rnd.Next(0, 24);
     Console.WriteLine(missionArray[mission]);
     if (mission == 2)
     {
-        int type = rnd.Next(1, 2);
-        Console.WriteLine(type);
+        int spawn = rnd.Next(1, 2);
+        Console.WriteLine(spawn);
     }
     if (mission == 6)
     {
-        int type = rnd.Next(1, 5);
-        Console.WriteLine(type);
+        int spawn = rnd.Next(1, 5);
+        Console.WriteLine(spawn);
     }
     if (mission == 8)
     {
-        int type = rnd.Next(1, 5);
-        Console.WriteLine(type);
+        int spawn = rnd.Next(1, 5);
+        Console.WriteLine(spawn);
     }
     if (mission == 9)
     {
-        int type = rnd.Next(1, 2);
-        Console.WriteLine(type);
+        int spawn = rnd.Next(1, 2);
+        Console.WriteLine(spawn);
     }
     if (mission == 12)
     {
-        int type = rnd.Next(1, 2);
-        Console.WriteLine(type);
+        int spawn = rnd.Next(1, 2);
+        Console.WriteLine(spawn);
     }
     Console.WriteLine("Press 1 to generate a new mission.");
     Console.WriteLine("Press 0 to exit.");
