@@ -9,30 +9,17 @@ while(Convert.ToInt32(input) != 0)
     Random rnd = new Random();
     int mission = rnd.Next(0, 24);
     Console.WriteLine(missionArray[mission]);
-    if (mission == 2)
+    // IDES OF MARCH
+    if (mission == 5)
     {
         int spawn = rnd.Next(1, 2);
-        Console.WriteLine(spawn);
+        Console.WriteLine("Spawn: " + spawn);
     }
-    if (mission == 6)
+    //LEVIATHAN
+    if (mission == 5)
     {
-        int spawn = rnd.Next(1, 5);
-        Console.WriteLine(spawn);
-    }
-    if (mission == 8)
-    {
-        int spawn = rnd.Next(1, 5);
-        Console.WriteLine(spawn);
-    }
-    if (mission == 9)
-    {
-        int spawn = rnd.Next(1, 2);
-        Console.WriteLine(spawn);
-    }
-    if (mission == 12)
-    {
-        int spawn = rnd.Next(1, 2);
-        Console.WriteLine(spawn);
+        int spawn = rnd.Next(1, 3);
+        Console.WriteLine("Spawn: " + spawn);
     }
     Console.WriteLine("Press 1 to generate a new mission.");
     Console.WriteLine("Press 0 to exit.");
