@@ -16,7 +16,7 @@ while(Convert.ToInt32(input) != 0)
         Console.WriteLine("Spawn: " + spawn);
     }
     // LEVIATHAN
-    if (mission == 5)
+    if (mission == 22)
     {
         int spawn = rnd.Next(1, 3);
         Console.WriteLine("Spawn: " + spawn);
@@ -27,10 +27,22 @@ while(Convert.ToInt32(input) != 0)
         int spawn = rnd.Next(1, 2);
         Console.WriteLine("Spawn: " + spawn);
     }
+    // SINS OF THE FATHER
+    if (mission == 12)
+    {
+        int spawn = rnd.Next(1, 3);
+        Console.WriteLine("Spawn: " + spawn);
+    }
     // DORMS
     if (mission == 18)
     {
         int spawn = rnd.Next(1, 2);
+        Console.WriteLine("Spawn: " + spawn);
+    }
+    // 3 LETTER TRIAD
+    if (mission == 23)
+    {
+        int spawn = rnd.Next(1, 4);
         Console.WriteLine("Spawn: " + spawn);
     }
     Console.WriteLine("Press 1 to generate a new mission.");
