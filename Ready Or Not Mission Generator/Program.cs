@@ -15,10 +15,22 @@ while(Convert.ToInt32(input) != 0)
         int spawn = rnd.Next(1, 2);
         Console.WriteLine("Spawn: " + spawn);
     }
-    //LEVIATHAN
+    // LEVIATHAN
     if (mission == 5)
     {
         int spawn = rnd.Next(1, 3);
+        Console.WriteLine("Spawn: " + spawn);
+    }
+    // ELEPHANT
+    if (mission == 10)
+    {
+        int spawn = rnd.Next(1, 2);
+        Console.WriteLine("Spawn: " + spawn);
+    }
+    // DORMS
+    if (mission == 18)
+    {
+        int spawn = rnd.Next(1, 2);
         Console.WriteLine("Spawn: " + spawn);
     }
     Console.WriteLine("Press 1 to generate a new mission.");
