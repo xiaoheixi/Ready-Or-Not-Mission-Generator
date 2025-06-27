@@ -33,6 +33,12 @@ while(Convert.ToInt32(input) != 0)
         int spawn = rnd.Next(1, 2);
         Console.WriteLine("Spawn: " + spawn);
     }
+    // LAWMAKER
+    if (mission == 20)
+    {
+        int spawn = rnd.Next(1, 3);
+        Console.WriteLine("Spawn: " + spawn);
+    }
     // MIRAGE AT SEA
     if (mission == 21)
     {
