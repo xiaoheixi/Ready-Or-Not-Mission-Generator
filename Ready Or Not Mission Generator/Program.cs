@@ -27,12 +27,18 @@ while(Convert.ToInt32(input) != 0)
         int spawn = rnd.Next(1, 3);
         Console.WriteLine("Spawn: " + spawn);
     }
-    // DORMS
-    if (mission == 18)
+    // BUY CHEAP, BUY TWICE
+    if (mission == 14)
     {
         int spawn = rnd.Next(1, 2);
         Console.WriteLine("Spawn: " + spawn);
     }
+    // DORMS
+        if (mission == 18)
+        {
+            int spawn = rnd.Next(1, 2);
+            Console.WriteLine("Spawn: " + spawn);
+        }
     // LAWMAKER
     if (mission == 20)
     {
