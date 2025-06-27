@@ -15,6 +15,12 @@ while(Convert.ToInt32(input) != 0)
         int spawn = rnd.Next(1, 2);
         Console.WriteLine("Spawn: " + spawn);
     }
+    // ENDS OF THE EARTH
+    if (mission == 7)
+    {
+        int spawn = rnd.Next(1, 2);
+        Console.WriteLine("Spawn: " + spawn);
+    }
     // ELEPHANT
     if (mission == 10)
     {
@@ -33,12 +39,18 @@ while(Convert.ToInt32(input) != 0)
         int spawn = rnd.Next(1, 2);
         Console.WriteLine("Spawn: " + spawn);
     }
+    // RELAPSE
+    if (mission == 16)
+    {
+        int spawn = rnd.Next(1, 2);
+        Console.WriteLine("Spawn: " + spawn);
+    }
     // DORMS
-        if (mission == 18)
-        {
-            int spawn = rnd.Next(1, 2);
-            Console.WriteLine("Spawn: " + spawn);
-        }
+    if (mission == 18)
+    {
+        int spawn = rnd.Next(1, 2);
+        Console.WriteLine("Spawn: " + spawn);
+    }
     // LAWMAKER
     if (mission == 20)
     {
